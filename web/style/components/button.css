@@ -1,0 +1,29 @@
+.button {
+  background-color: #f3ecff;
+  color: #6750a4;
+  border-radius: 100px;
+  padding: 11px 24px;
+}
+
+.icon-button {
+  display: flex;
+
+  justify-content: space-between;
+  width: 270px;
+}
+
+.button.filled {
+  background-color: #6750a4;
+  color: #ffffff;
+}
+
+.button.icon {
+  background-color: transparent;
+  padding: 11px;
+}
+
+.product-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

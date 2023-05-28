@@ -1,0 +1,17 @@
+@import "../components/button.css";
+@import "../components/product-item.css";
+@import "../components/form.css";
+
+.form-inputs__group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+gap: 30px;
+
+}
+
+.form-actions.profile {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+

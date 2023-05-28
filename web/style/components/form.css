@@ -1,0 +1,131 @@
+.form-input {
+  max-width: 600px;
+  background-color: #f6f1ff;
+  border-radius: 28px;
+  box-shadow: 0px 8px 24px rgba(103, 80, 164, 0.15);
+  overflow: hidden;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 18px 24px;
+}
+
+.form-input input:focus {
+  outline: none;
+}
+
+.form-inputs {
+  display: grid;
+  grid-template-columns: 600px;
+  gap: 30px;
+}
+
+.form-checkbox input {
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+  /* visibility: hidden; */
+  position: absolute;
+}
+
+.form-checkboxes {
+  display: grid;
+  gap: 16px;
+}
+
+.form-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-checkbox-label__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #eee4ff;
+  box-shadow: 0px 8px 25px rgba(103, 80, 164, 0.15);
+  border-radius: 5px;
+}
+
+.form-checkbox-label__icon svg {
+  opacity: 0;
+  visibility: hidden;
+  transition: 300ms ease;
+}
+
+.form-checkbox:has(input:checked) .form-checkbox-label__icon svg {
+  opacity: 1;
+  visibility: visible;
+}
+
+.form {
+  display: grid;
+  gap: 30px;
+}
+
+.input-texts {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.input-text {
+  color: #8e8e8e;
+}
+
+.input-text.a {
+  color: #6750a4;
+}
+
+.form-warning {
+  color: #8e8e8e;
+}
+
+.form-input.description textarea {
+  width: 100%;
+  height: 300px;
+  padding: 18px 24px;
+  resize: none;
+}
+
+.form-input.description textarea:focus {
+  outline: none;
+}
+
+.form-input.file label {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  max-width: inherit;
+  overflow: hidden;
+}
+.form-input.file {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.form-input.file input {
+  width: 0;
+  height: 0;
+  padding: 0;
+
+  opacity: 0;
+  position: absolute;
+}
+
+.file-result {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
