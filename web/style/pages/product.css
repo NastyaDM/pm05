@@ -4,6 +4,21 @@
 .product-card {
   display: flex;
   gap: 60px;
+
+  max-width: 1000px;
+}
+
+.product-card-photo {
+  flex-shrink: 0;
+  width: 350px;
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+.product-card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 table tr td {
@@ -34,6 +49,13 @@ table tr td:last-child {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.product-card-info__tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .product-card-info_tag {

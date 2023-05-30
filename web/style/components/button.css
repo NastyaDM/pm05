@@ -1,4 +1,7 @@
 .button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background-color: #f3ecff;
   color: #6750a4;
   border-radius: 100px;

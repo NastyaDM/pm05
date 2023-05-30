@@ -2,7 +2,6 @@
 @import "../components/button.css";
 @import "../components/product-item.css";
 
-
 .intro {
   display: flex;
   align-items: center;
@@ -17,6 +16,10 @@
   max-width: 700px;
 
   text-align: center;
+}
+
+.intro-info-text {
+  line-height: 1.5;
 }
 
 .new-info-title {

@@ -17,6 +17,7 @@
 .product {
   background-color: #f6f1ff;
   border-radius: 28px;
+  overflow: hidden;
   width: 300px;
   box-shadow: 0px 8px 24px rgba(103, 80, 164, 0.15);
 }
@@ -50,12 +51,11 @@
   display: flex;
   gap: 15px;
   align-items: center;
-
 }
 
 .product-mini-photo {
   display: flex;
-  flex-shrink: 0
+  flex-shrink: 0;
 }
 
 .product-mini-name {
